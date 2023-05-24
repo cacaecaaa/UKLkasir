@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AddItemActivity"
+    android:background="@drawable/bgmenu"
     android:orientation="vertical">
 
     <EditText
@@ -12,26 +13,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nama produk..."
+        android:textColorHint="#F9FBE7"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="16dp"
         android:textSize="24sp"
-        android:textColor="@color/black"/>
+        android:textColor="#F9FBE7"
+        android:backgroundTint="@color/white"/>
+
     <EditText
         android:id="@+id/hargaProduk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Harga produk..."
+        android:textColorHint="#F9FBE7"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="16dp"
         android:textSize="24sp"
-        android:textColor="@color/black"
-        android:inputType="number"/>
+        android:textColor="#F9FBE7"
+        android:inputType="number"
+        android:backgroundTint="@color/white"/>
+
     <Spinner
         android:id="@+id/pilihTipe"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="16dp"
+        android:background="#F9FBE7"
+        android:backgroundTint="@color/white"
         android:entries="@array/tipe" />
 
     <Button
@@ -41,6 +50,7 @@
         android:layout_marginHorizontal="22dp"
         android:layout_gravity="center"
         android:text="simpan"
+        android:backgroundTint="@color/black"
         android:layout_marginTop="16dp"/>
 
 </LinearLayout>

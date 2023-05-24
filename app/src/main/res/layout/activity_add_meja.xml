@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AddMejaActivity"
+    android:background="@drawable/bgmenu"
     android:orientation="vertical">
 
     <TextView
@@ -14,11 +15,13 @@
         android:layout_marginLeft="16dp"
         android:text="Nama Meja"
         android:textSize="24sp"
-        android:textColor="@color/black"/>
+        android:textColor="#F9FBE7"/>
     <EditText
         android:id="@+id/inputNamaMeja"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
         android:layout_marginHorizontal="16dp"/>
     <Button
         android:id="@+id/buttonSimpan"
@@ -27,6 +30,7 @@
         android:layout_marginHorizontal="20dp"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
-        android:text="simpan"/>
+        android:text="simpan"
+        android:backgroundTint="@color/black"/>
 
 </LinearLayout>

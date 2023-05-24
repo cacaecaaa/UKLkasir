@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgmenu"
     tools:context=".AddItemOnDetailActivity">
 
     <ScrollView
@@ -19,7 +20,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
                 android:text="Makanan"
-                android:textColor="@color/black"
+                android:textColor="#F9FBE7"
                 android:textSize="28sp"
                 android:textStyle="bold"/>
             <androidx.recyclerview.widget.RecyclerView
@@ -35,7 +36,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
                 android:text="Minuman"
-                android:textColor="@color/black"
+                android:textColor="#F9FBE7"
                 android:textSize="28sp"
                 android:textStyle="bold"/>
             <androidx.recyclerview.widget.RecyclerView
@@ -54,6 +55,7 @@
         android:layout_marginHorizontal="22dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:text="checkout"/>
+        android:text="checkout"
+        android:backgroundTint="@color/black"/>
 
 </RelativeLayout>

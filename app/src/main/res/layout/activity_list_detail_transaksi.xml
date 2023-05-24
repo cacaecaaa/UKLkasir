@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgmenu"
     tools:context=".ListDetailTransaksiActivity">
 
     <RelativeLayout
         android:id="@+id/relative"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/PrimaryColor">
+        android:background="@color/black">
 
         <ImageButton
             android:id="@+id/buttonAdd"
@@ -38,7 +39,7 @@
         android:text="Total: Rp.00000000"
         android:layout_below="@id/recyclerDetail"
         android:layout_marginTop="16dp"
-        android:textColor="@color/black"
+        android:textColor="#F9FBE7"
         android:textSize="25sp"
         android:layout_marginLeft="16dp"/>
 

@@ -10,6 +10,6 @@
         android:layout_marginStart="10dp"
         android:text="Meja 1"
         android:textSize="47sp"
-        android:textColor="@color/black"/>
+        android:textColor="#F9FBE7"/>
 
 </LinearLayout>

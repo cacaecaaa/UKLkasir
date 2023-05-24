@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgmenu"
     tools:context=".ListMejaActivity">
 
     <RelativeLayout
         android:id="@+id/relative"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/PrimaryColor">
+        android:background="#FF957357">
 
         <ImageButton
             android:id="@+id/buttonAdd"
@@ -29,6 +30,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/relative"
         android:layout_marginTop="10dp"
-        android:layout_marginLeft="16dp"/>
+        android:layout_marginLeft="16dp" />
 
 </RelativeLayout>
